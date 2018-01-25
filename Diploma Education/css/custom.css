@@ -1,0 +1,167 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+/*Header*/
+header {
+	padding: 20px 0;
+}
+
+
+/*featured*/
+.featured {
+	background-image: url(../images/background.png);
+	background-color: #ffc66b;
+	
+	margin-bottom: 40px;
+}
+
+.featured h1 {
+	color: white;
+	font-size: 50px;
+}
+
+.featured p {
+	color: white;
+}
+
+
+/*Services*/
+.title {
+	margin-bottom: 40px;
+}
+
+.title h2 {
+	margin-bottom: 0px;
+	color: #ffc66b;
+}
+
+.services {
+	margin-bottom: 40px;
+}
+
+.services h3 {
+	color: #ffc66b;
+}
+
+.services .service1 {
+	margin-top: 20px;
+}
+
+
+/*Gallery*/
+.gallery {
+	margin-bottom: 40px;
+}
+
+
+/*Video*/
+.video {
+	background-image: url(../images/background.png);
+	background-color: #ededed;
+	margin-bottom: 60px;
+	padding: 40px 0;
+}
+
+.video h2 {
+	font-size: 30px;
+}
+
+.video p {
+	font-size: 16px;
+}
+
+.video .a {
+	list-style: circle;
+	list-style-image: url(../images/check.png);
+	padding-left: 22px;
+}
+
+.video .a li {
+	padding: 10px;
+}
+
+
+/*Example*/
+.example {
+	margin-bottom: 60px;
+}
+
+.example .a {
+	list-style: circle;
+	list-style-image: url(../images/check.png);
+	padding-top: 70px;
+}
+
+.example .a li {
+	text-align: justify;
+	padding-top: 12px;
+	border-bottom: 1px solid #efefef;
+}
+
+.example .panel-default {
+	position: relative;
+	margin-top: 120px;
+}
+
+.example .img {
+	position: absolute;
+	bottom: 250px;
+	right: 100px;
+	border: 8px solid orange;
+	z-index: 4;
+}
+
+@media (max-width: 320px) and (min-width: 318px) {
+.example .img {
+	position: absolute;
+	bottom: 250px;
+	right: 43px !important;
+	border: 8px solid orange;
+	z-index: 4;
+}
+}
+
+
+/*Footer*/
+footer {
+	background: #f7723d;
+	padding: 20px 0;
+}
+
+footer h3 {
+	color: white;
+	font-size: 20px;
+}
+
+footer p {
+	color: white;
+	font-size: 14px;
+}
+
+footer .b .contact1 {
+	color: white;
+	list-style: circle;
+	list-style-image: url(../images/contact1.png);
+}
+
+footer .b .contact2 {
+	color: white;
+	list-style: circle;
+	list-style-image: url(../images/contact2.png);
+}
+
+footer .b .contact3 {
+	color: white;
+	list-style: circle;
+	list-style-image: url(../images/contact3.png);
+}
+
+
+/*Copyright*/
+.copyright {
+	background: #c44700;
+	color: white;
+	padding: 20px;
+}
